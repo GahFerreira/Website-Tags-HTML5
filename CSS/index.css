@@ -3,7 +3,7 @@
   padding: 10px;
   margin: 10% 10%;
   margin-top: 25px;
-  margin-bottom:50px;
+  margin-bottom: 0;
   border: 3px solid black;
   background:linear-gradient(#f1f5ef,#CED9AB);
 
@@ -21,22 +21,4 @@
   padding-left:25%;
 
   max-width: 75%;
-
 }
-
-/* .cores1{
-
-  background-color:#631869;
-
-}
-
-.cores2{
-
-  background-color:#9A26A3;
-
-}
-
-.cores3{
-
-  background-color:#9A59A9;
-} */

@@ -108,19 +108,36 @@ body{
 
 .rodape{
     margin: auto auto;
+    margin-top: 10%;
     width: 40%;
     height: 2.5%;
     background: radial-gradient(#631869, #63186945, rgba(0, 0, 0, 0));
-    
-  }
-  
-  .copyright{
+
+}
+
+.copyright{
     color: white;
     font-family: 'Press Start 2P', cursive;
-  
+
     text-align: center;
     margin: 0;
-  
+
     padding-top: 1.25%;
-  }
+}
   
+  /* .cores1{
+
+  background-color:#631869;
+
+}
+
+.cores2{
+
+  background-color:#9A26A3;
+
+}
+
+.cores3{
+
+  background-color:#9A59A9;
+} */
