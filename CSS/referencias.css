@@ -41,3 +41,13 @@ tbody :nth-child(odd) td
 {
   background-color: #C0F4A6;
 }
+
+tr:hover{
+
+  background-color: blue;
+  color:white;
+  cursor:pointer;
+
+
+
+}
