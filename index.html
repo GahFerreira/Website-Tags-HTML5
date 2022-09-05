@@ -1,79 +1,57 @@
-
-
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="utf-8">
     <title>Conheça tags html</title>
 
-
-    <link rel="stylesheet" href = "styles1.css">
+    <link rel="stylesheet" href = "CSS/global.css">
+    <link rel="stylesheet" href = "CSS/index.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lobster+Two&family=Press+Start+2P&display=swap" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lobster+Two&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
   </head>
 
 
   <body>
 
-    <hgroup>
+    <header>
 
-      <h1>Conheça tags html</h1>
-      <h2>Trabalho da disciplina de desenvolvimento web, ifnmg</h2>
+      <hgroup>
+        <h1 class="titulo">Conheça tags html</h1>
+        <h2 class="subtitulo">Trabalho da disciplina de desenvolvimento web, ifnmg</h2>
+      </hgroup>
 
-    </hgroup>
+    </header>
 
+    <nav class="navegacao"></nav>
 
-      <nav>
+        <ul class="lista-nav">
 
-        <ul>
-
-          <li class="cores1">página inicial</li>
-          <li class="cores2"> &lt blockquote &gt</li>
-          <li class="cores3"> &lt dialog &gt</li>
-          <li class="cores1"> &lt legend &gt</li>
-          <li class="cores2"> &lt cite &gt </li>
-          <li class="cores3"> &lt frameset  &gt </li>
-          <li class="cores1"> &lt thead  &gt </li>
-          <li class="cores2"> &lt tt &gt </li>
-          <li class="cores3"> &lt footer  &gt </li>
-          <li class="cores1"> &lt area &gt </li>
-          <li class="cores2"> &lt b &gt </li>
-          <li class="cores3"> &lt div &gt </li>
-          <li class="cores1"> &lt sub &gt </li>
-          <li class="cores2"> &lt style  &gt </li>
-          <li class="cores3"> membros da equipe</li>
-          <li class="cores1">referências</li>
+          <li class="item-nav botao1"><a href="referencias.html"> &lt referências &gt </a></li>
+          <li class="item-nav botao2"><a href="sobre.html"> &lt membros da equipe  &gt </a></li>
 
         </ul>
 
       </nav>
 
-      <article>
+    <article>
 
-        <div id="caixa">
+        <p class="caixa">Este site constitui um trabalho realizado pelos estudantes do IFNMG de Montes Claros: Gabriel Vinícius Borges Ferreira, Felipe Silva Santana e João Duarte Colares. Ele tem por objetivo explicar a definição de algumas tags HTML específicas. Para a criação e estilização deste site foi usada a linguagem de marcação de hipertexto HTML (Hypertext Markup Language) e a linguagem de estilo CSS (Cascading Style Sheets).
+        <img class="imagem-caixa" src= "IMG/computer-desk-7339325_640.png" alt="computador">
 
-          <p id = "texto">Este site constitui um trabalho realizado pelos estudantes do ifnmg de Montes Claros:
-             Gabriel Vinícius Borges Ferreira,
-             Felipe Silva Santana e João Duarte Colares.
-              Ele tem por objetivo o desenvolvimento de um site que explique a definição de algumas
-            tags html específicas. Para a criação e estilização deste site foi usada a linguagem de marcação de hipertexto
-            html(Hypertext Markup Language) e a linguagem de estilo css(Cascading Style Sheets).
-          <img id="imagem" src= "computer-desk-7339325_640.png" alt="computador">
+        </p>
+      
+    </article>
 
+    <footer class="rodape">
 
+      <p class="copyright">Copyright © 2022</p>
 
+    </footer>
 
-          </p>
-
-        </div>
-
-
-      <article>
-
-
-    </body>
+  </body>
 
 </html>
