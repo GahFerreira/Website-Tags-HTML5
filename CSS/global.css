@@ -7,7 +7,6 @@
 
 body
 {
-
     /* Adiciona a borda vermelha nas páginas */
     /* `height` é para a borda ser infinita */
     height: 100vmax;
@@ -21,7 +20,6 @@ body
 
 .titulo
 {
-
     margin: 0px;
     font-size: 50px;
     text-align: center;
@@ -30,12 +28,10 @@ body
     text-shadow: 3px 3px 2px #2B2BA1;
     font-family: 'Archivo Black', sans-serif;
     padding: 14px;
-
 }
 
 .subtitulo
 {
-
     margin: 0px;
     font-size: 30px;
     text-align: center;
@@ -44,7 +40,20 @@ body
     text-shadow: 3px 3px 2px #826DA3;
     font-family: 'Lobster Two', cursive;
     padding: 16px;
+}
 
+.lista-nav
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    align-items: center;
+
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .item-nav
@@ -59,20 +68,9 @@ body
     padding-top: 3px;
 }
 
-.lista-nav
+.item-nav:hover
 {
-
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-    align-items: center;
-
-    border: 0px;
-    padding: 0px;
-    margin: 0px;
-
+    cursor: pointer;
 }
 
 .item-nav a
@@ -89,31 +87,24 @@ body
 
 .botao1
 {
-
     text-align: end;
     background: linear-gradient(90deg, rgba(0, 0, 0, 0), #9A26A3);
-
 }
 
 .botao2
 {
-
     text-align: left;
     background: linear-gradient(270deg, rgba(0, 0, 0, 0), #9A59A9);
 }
 
 .botao1:hover
 {
-
     background: linear-gradient(90deg, rgba(0, 0, 0, 0), #74177a);
-    cursor: pointer;
-
 }
 
 .botao2:hover
 {
     background: linear-gradient(270deg, rgba(0, 0, 0, 0), #792e8a);
-    cursor: pointer;
 }
 
 .rodape
@@ -123,7 +114,6 @@ body
     width: 40%;
     height: 2.5%;
     background: radial-gradient(#631869, #63186945, rgba(0, 0, 0, 0));
-
 }
 
 .copyright

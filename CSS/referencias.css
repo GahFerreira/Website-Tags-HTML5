@@ -1,6 +1,5 @@
 .tabela
 {
-
   background-color: #f1f5ef;
 
   margin: auto auto;
@@ -14,7 +13,7 @@
   border-collapse: collapse;
 }
 
-thead
+.cabecalho-tabela
 {
   background: linear-gradient(0deg, rgb(105, 187, 64), rgb(105, 187, 64) 2%, #f1f5ef);
 }
@@ -32,15 +31,21 @@ thead
   border: 2px solid #3b3b3b;
 }
 
-.body-tabela :nth-child(odd) td
+.corpo-tabela a
+{
+  text-decoration: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+.corpo-tabela :nth-child(odd) td
 {
   background-color: #C0F4A6;
 }
 
-.body-tabela tr:hover td
+.corpo-tabela tr:hover td
 {
   background-color: blue;
-  color: white;
+  color: #f1f5ef;
   cursor: pointer;
-
 }
