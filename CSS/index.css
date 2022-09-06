@@ -14,9 +14,14 @@
   font-family: 'Chakra Petch', sans-serif;
 }
 
+.texto-caixa
+{
+  margin: 0;
+}
+
 .imagem-caixa
 {
-  padding-top: 10%;
+  padding-top: 6%;
   padding-left: 25%;
 
   max-width: 75%;
