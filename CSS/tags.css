@@ -1,7 +1,5 @@
 .caixa
 {
-
-
   padding-bottom: 10px;
   margin: 5% 5%;
   margin-top: 25px;
@@ -14,7 +12,6 @@
   line-height: 39px;
 
   font-family: 'Chakra Petch', sans-serif;
-
 }
 
 .imagem-caixa
@@ -89,65 +86,66 @@
 
 
 .tabela-atributos
-{	
-	margin: auto auto;
-	
-	border:1px solid;
-	background: linear-gradient(to right,white,rgb(211,211,211));
-	
+{
+  margin: auto auto;
+
+  border: 1px solid;
+  background: linear-gradient(to right, white, rgb(211, 211, 211));
+
 }
 
-.tabela-atributos th{
-	
-	background-color: rgb(220,220,220);
-	
+.tabela-atributos th
+{
+
+  background-color: rgb(220, 220, 220);
+
 }
 
 .tabela-atributos td
 {
-	
-	border-right-width: 3px;
-	border-right-color: black;
+
+  border-right-width: 3px;
+  border-right-color: black;
 }
 
 .corpo-tabela-atributos :nth-child(odd) td
 {
-	background-color:#FFDEAD;
+  background-color: #FFDEAD;
 }
 
 .corpo-tabela-atributos :nth-child(even) td
 {
-	
-	background-color:rgb(245,242,189);
-	
+
+  background-color: rgb(245, 242, 189);
+
 }
 
 .canvas
 {
-	display: flex;
+  display: flex;
 }
 
 .metade-canvas
 {
-	flex: 50%;
-	
-	max-width: 50%;
+  flex: 50%;
+
+  max-width: 50%;
 }
 
 .codigo
 {
-	margin-right: 2px;
-	
-	background-color: rgb(245,242,189);
-	
-	line-height: 200%;
-	
-	font-size: 50%;
+  margin-right: 2px;
+
+  background-color: rgb(245, 242, 189);
+
+  line-height: 200%;
+
+  font-size: 50%;
 }
 
 .codigo-executado
 {
-	margin-left: 2px;
-	
-	background-color:white;
+  margin-left: 2px;
+
+  background-color: white;
 }
