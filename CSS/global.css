@@ -68,6 +68,7 @@ body
     /* Padding adicionado aqui para que toda
     a região de .item-nav seja clicável */
     padding-top: 3px;
+    padding-bottom: 1px;
 
     text-decoration: inherit;
     color: inherit;
