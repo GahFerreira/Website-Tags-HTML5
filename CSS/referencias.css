@@ -2,13 +2,15 @@
 {
   background-color: #f1f5ef;
 
-  margin: 20px;
+  margin: 100px;
+  margin-top: 20px;
   margin-bottom: 0;
   padding: 0;
 
   border: 6px solid;
 
   font-family: 'Press Start 2P', cursive;
+  line-height: 1.75em;
 
   border-collapse: collapse;
 }
@@ -23,6 +25,12 @@
   padding: 10px;
   border: 2px solid;
   border-bottom: 3px solid;
+}
+
+/* .linha-topo:first-child, */
+.corpo-tabela td:first-child
+{
+  min-width: max-content;
 }
 
 .tabela td
